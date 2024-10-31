@@ -1,0 +1,163 @@
+* { outline: none; }
+
+#div_publicame_options {
+	margin: 40px 20px;
+	padding: 0 20px 20px 20px;
+	border: 3px solid #666;
+	background: #FFFFFF url(../img/pub_bg.jpg) no-repeat scroll left top;
+ }
+ 
+	#div_publicame_options #publicame_logo {
+		background: url(../img/publicamelogo.png) top left no-repeat;
+		width: 514px;
+		height: 100px;
+		text-indent: -10000px;
+ 	}
+ 
+ 	#div_publicame_options #publicame_contents {
+ 		margin: 40px 20px 10px 10px;
+ 		border: none;
+ 		border-top: 1px dashed #666;
+ 		border-left: 1px dashed #666;
+ 		padding: 10px 20px 30px 20px;
+ 	}
+ 	
+ 	#div_publicame_options #publicame_contents .vertalign {
+ 		vertical-align: top;
+ 	}
+ 	
+ 	#div_publicame_options #publicame_contents #get_publicame_apikey {
+ 		width: 120px;
+ 		margin-top: 0px;
+ 		background-color: #FFF;
+ 		color: #666;
+ 		font-size: 11px;
+ 	}
+
+	#div_publicame_options #publicame_contents ul li {
+		list-style: circle;
+		margin: 0 0 15px 25px;
+	}
+ 
+	#div_publicame_options #options_links ul li {
+		display: inline;
+		padding: 4px 10px;
+		margin: 0 7px 0 0;
+		border: 1px solid #999;
+		font-size: 13px;
+		font-weight: bold;
+	}
+	
+		#div_publicame_options #options_links ul li a {
+			text-decoration: none;
+			color: #0099cc;
+		}
+		
+		#div_publicame_options #options_links ul li a:hover {
+			color: #0099cc;
+			text-decoration: underline;
+		}
+		
+		
+	#div_publicame_options #publicame_contents .publicame_stats_admin {
+		border: 1px solid #666666;
+		height: 450px;
+		margin-top: 10px;
+		width: 100%;
+	}
+
+
+	#div_publicame_options #footer_note {
+		margin: 50px 0 0 0;
+		border-top: 1px solid #999;
+		padding-top: 4px;
+		font-size: 11px;
+		color: #666;
+	}
+		
+
+	#div_publicame_options .msgspan {
+		margin-left: 150px;
+ 	}
+ 
+   	#div_publicame_options fieldset {
+		width: 700px;
+ 	}
+ 
+  	#div_publicame_options label {
+		display: inline;
+		float: left;
+		width: 150px;
+		margin-top: 22px;
+ 	}
+ 		
+ 	#div_publicame_options input,
+ 	#div_publicame_options select,
+ 	#div_publicame_options textarea {
+		border: 1px solid #666;
+		font: 14px "Trebuchet MS";
+		padding: 3px;
+		color: #0099cc;
+		width: 500px;
+		margin-top: 20px;
+ 	}
+ 	
+ 	#div_publicame_options select {
+ 		width: 100px;
+ 		margin-right: 450px;
+ 		padding: 1px;
+ 	}
+ 	
+ 	#div_publicame_options .smaller_input_box {
+ 		width: 200px;
+ 		margin-right: 500px;
+ 	}
+ 	
+	#div_publicame_options .publicame_icon_selector {
+		border: 2px solid rgb(255, 255, 255);
+		margin: 0px;
+		padding: 0px;
+		width: 32px;
+		height: 32px;
+		-moz-user-select: none;
+		background-image: url(../img/icon.png);
+		vertical-align: middle;
+		cursor: pointer;
+	}
+ 	
+ 	
+	#div_publicame_options #publicame_options_submit {
+		margin: 15px 0 0 0;
+		border: 1px solid #666;
+		font: 13px "Trebuchet MS";
+		font-weight: bold;
+		color: #333;
+		width: 130px;
+		padding: 6px;
+ 	}
+ 	
+	#div_publicame_options h3 {
+		color: #0099cc;
+		font: 22px "Trebuchet MS"; 
+		font-weight: bold !important;
+		margin: 0 0 0 0;
+	}
+
+	#div_publicame_options p {
+		font-size: 13px; 
+	}
+	 	
+	#div_publicame_options pre {
+		font-size: 15px;
+		color: #FF0000;
+	}
+	 	
+	#div_publicame_options i {
+		color: #666;
+	}
+	
+	.hits_by_country {
+		color: #666;
+		font: 14px "Trebuchet MS";
+		padding: 20px 10px;
+	}
